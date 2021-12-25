@@ -15,8 +15,8 @@ void octaltodecimal ( long long octal );
 void decimaltooctal ( long long decimal );
 //--------------------------------------------
 char singleDigitPreprocees(int n);
-string decimalTo(int decimal,int base /*= 16*/);
-int toDecimal(string number,int base /*= 16*/);
+string decimalTo(int decimal,int base );
+int toDecimal(string number,int base);
 string binaryToOctal(string binary);
 string octalToBinary(string octal);
 //--------------------------------------------
